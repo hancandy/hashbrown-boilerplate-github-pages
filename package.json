@@ -1,0 +1,30 @@
+{
+  "name": "hashbrown-boilerplate-github-pages",
+  "repository": "https://github.com/Putaitu/hashbrown-boilerplate-github-pages.git",
+  "version": "0.1.0",
+  "description": "The GitHub Pages boilerplate for HashBrown CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Putaitu Productions",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babelify": "^7.2.0",
+    "bluebird": "^3.3.3",
+    "browserify": "^13.0.0",
+    "chalk": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-duration": "0.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "utils-merge": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

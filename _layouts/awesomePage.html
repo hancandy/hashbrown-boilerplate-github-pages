@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+    {% include main/head.html %}
+
+    <body>
+        {% include main/navigation.html %}
+
+        <div class="page"> 
+            <section class="banner light">
+                <div class="container">
+                    <h1>{{ page.title }}</h1>
+                    <p>{{ page.description }}</p>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    {{ page.text | markdownify }}
+                </div>
+            </section>
+        </div>
+
+        {% include main/footer.html %}
+        
+        {% include main/scripts.html %}
+    </body>
+</html>
