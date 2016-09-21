@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+    {% include main/head.html %}
+
+    <body>
+        <div class="page"> 
+            {% for section in page.sections %}     
+                {% include hashbrown/render_section section = section %}
+            {% endfor %}
+        </div>
+
+        {% include main/footer.html %}
+        
+        {% include main/scripts.html %}
+    </body>
+</html>

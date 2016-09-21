@@ -7,8 +7,6 @@ layout: compress
     {% include main/head.html %}
 
     <body>
-        {% include main/navigation.html %}
-
         <div class="page"> 
             <section class="banner light">
                 <div class="container">
@@ -16,6 +14,7 @@ layout: compress
                     <p>{{ page.description }}</p>
                 </div>
             </section>
+        
             <section>
                 <div class="container">
                     {{ page.text | markdownify }}

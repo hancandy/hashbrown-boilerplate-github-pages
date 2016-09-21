@@ -1,0 +1,7 @@
+<section class="rich-text-section">
+    <div class="container">
+        {% if include.section.text %}
+            {{ include.section.text | markdownify }}
+        {% endif %}
+    </div>
+</section>

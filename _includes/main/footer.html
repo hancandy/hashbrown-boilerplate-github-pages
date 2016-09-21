@@ -1,5 +1,14 @@
 <footer>
     <div class="container">
-        Your footer here
+        {% if page.footer %}
+            {% include hashbrown/get_content_by_id id=page.footer %}
+            {% assign footer_content = result %}
+
+            {% if footer_content %}
+                {{ footer_content.text | markdownify }}
+            {% endif %}
+        {% endif %}
     </div>
+    
+    <a href="http://hashbrown.rocks" class="logo"></a>
 </footer>

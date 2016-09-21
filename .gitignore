@@ -1,5 +1,8 @@
 node_modules/*
 _site/*
 
+./content/*
+./media/*
+
 *.swp
 *.swo
