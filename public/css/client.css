@@ -331,7 +331,7 @@ nav {
   nav.darken ul li a {
     color: #616161; }
   nav.darken ul li a.logo {
-    background-image: url("/public/svg/logo-grey.svg"); }
+    background-image: url("//kimberlyliu.com/itu-portfolio/public/svg/logo-grey.svg"); }
   nav ul.navbar-right {
     float: right; }
     nav ul.navbar-right li {
@@ -350,7 +350,7 @@ nav {
       nav ul li a:hover {
         text-decoration: underline; }
       nav ul li a.logo {
-        background-image: url("/public/svg/logo-white.svg");
+        background-image: url("//kimberlyliu.com/itu-portfolio/public/svg/logo-white.svg");
         background-size: 100% 100%;
         width: 32px; }
 
@@ -380,7 +380,7 @@ footer {
   footer .logo {
     display: block;
     margin: 1em auto 0em auto;
-    background-image: url("/public/svg/logo-grey.svg");
+    background-image: url("//kimberlyliu.com/itu-portfolio/public/svg/logo-grey.svg");
     width: 40px;
     height: 40px;
     background-size: contain;
