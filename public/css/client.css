@@ -296,8 +296,6 @@ section {
       position: relative; }
       section.banner .container h1, section.banner .container h2, section.banner .container p {
         max-width: 50%; }
-  section.rich-text-section .container {
-    max-width: 600px; }
   section.buttons .container {
     text-align: center; }
     section.buttons .container .button-container .btn {
