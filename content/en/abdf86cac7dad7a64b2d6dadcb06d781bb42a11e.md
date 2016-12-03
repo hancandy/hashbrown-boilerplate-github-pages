@@ -5,6 +5,7 @@ sections:
     -
         template: banner
         text: '# Dog Playground'
+        color: '#8ad9d5'
         theme: light
     -
         template: richTextSection
