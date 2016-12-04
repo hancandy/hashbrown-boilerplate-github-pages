@@ -229,7 +229,7 @@ pre {
     left: 50%;
     transform: translate(-50%, -50%);
     width: calc(100% - 2em);
-    max-width: 50em; }
+    max-width: 70em; }
     .modal-backdrop .modal .modal-body {
       text-align: center; }
       .modal-backdrop .modal .modal-body img {
